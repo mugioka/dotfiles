@@ -1,0 +1,22 @@
+[user]
+  name = mugioka
+  email = okamugi0722@gmail.com
+[core]
+  autoCRLF = false
+  attributesfile = /Users/mugioka/.gitattributes
+[filter "lfs"]
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
+[commit]
+  template = /Users/mugioka/.stCommitMsg
+[alias]
+  delete-merged-lb = !git branch --merged | grep -v master | grep -v main | grep -v stable | grep -v develop | xargs git branch -d
+[push]
+  default = current
+[log]
+  follow = true
+[diff "dyff"]
+  command = "dyff_between() { dyff --color on between --omit-header \"$2\" \"$5\"; }; dyff_between"
+
