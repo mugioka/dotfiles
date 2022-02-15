@@ -7,7 +7,7 @@ formulas=(
   asdf
   kube-ps1
   tmux
-  dyff
+  homeport/tap/dyff
   zsh-syntax-highlighting
   tree
   wget
