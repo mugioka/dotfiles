@@ -60,6 +60,8 @@ tools=(
   terraform-docs
 )
 
+source /opt/homebrew/opt/asdf/libexec/asdf.sh
+
 echo "Running asdf install tools..."
 for tool in "${tools[@]}"; do
     asdf plugin add ${tool} && asdf install ${tool} latest && asdf global ${tool} latest
