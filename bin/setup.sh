@@ -11,6 +11,7 @@ formulas=(
   zsh-syntax-highlighting
   tree
   wget
+  git-secrets
 )
 
 echo "Running brew install formulas..."
