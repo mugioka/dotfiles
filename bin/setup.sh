@@ -33,6 +33,7 @@ casks=(
   scroll-reverser
   spectacle
   bitwarden
+  karabiner-elements
 )
 
 echo "Running brew install casks..."
