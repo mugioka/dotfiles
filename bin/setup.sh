@@ -46,9 +46,9 @@ tools=(
   fd
   golang
   kubectl
+  kubie
   pre-commit
   k9s
-  kubectx
   terraform
   awscli
   gcloud
