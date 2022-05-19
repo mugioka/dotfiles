@@ -13,6 +13,7 @@ formulas=(
   wget
   git-secrets
   mysql-client
+  cli53
 )
 
 echo "Running brew install formulas..."
