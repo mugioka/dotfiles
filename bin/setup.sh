@@ -14,6 +14,7 @@ formulas=(
   git-secrets
   mysql-client
   cli53
+  velero
 )
 
 echo "Running brew install formulas..."
