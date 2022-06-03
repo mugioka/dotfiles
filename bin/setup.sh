@@ -15,6 +15,7 @@ formulas=(
   mysql-client
   cli53
   velero
+  terraformer
 )
 
 echo "Running brew install formulas..."
