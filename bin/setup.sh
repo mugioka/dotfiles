@@ -16,6 +16,7 @@ formulas=(
   cli53
   velero
   terraformer
+  shellcheck
 )
 
 echo "Running brew install formulas..."
