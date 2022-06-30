@@ -1,5 +1,7 @@
 export EDITOR=vim
 export GOPATH=${HOME}/go
+# to use ctrl + a/e with vscode terminal
+bindkey -e
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 ssh-add --apple-use-keychain
 source /Users/mugioka/projects/mugioka/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
