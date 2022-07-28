@@ -41,4 +41,5 @@ export XDG_CONFIG_HOME=$HOME/.config
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
 
-export KUBECTL_EXTERNAL_DIFF="dyff between --omit-header --set-exit-code"
+alias rck='kubectl run mugioka-curl --image=curlimages/curl -i --tty --rm -- sh'
+alias rdk='kubectl run mugioka-dig --image=tutum/dnsutils -i --tty --rm -- sh'
