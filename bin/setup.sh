@@ -65,6 +65,7 @@ tools=(
   kubetail
   nodejs
   terraform-docs
+  hadolint
 )
 
 source /opt/homebrew/opt/asdf/libexec/asdf.sh
