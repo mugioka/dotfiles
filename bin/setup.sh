@@ -66,6 +66,7 @@ tools=(
   nodejs
   terraform-docs
   hadolint
+  terraform-ls
 )
 
 source /opt/homebrew/opt/asdf/libexec/asdf.sh
