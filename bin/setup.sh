@@ -54,7 +54,6 @@ tools=(
   k9s
   terraform
   awscli
-  gcloud
   helm
   sops
   kustomize
